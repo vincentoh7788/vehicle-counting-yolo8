@@ -1,5 +1,3 @@
-# vehicle-counting-yolo
-
 # Vehicle Counting Application Backend using Deep Learning
 The model YOLOv8 is chosen among 4 models to be deployed within the application. The model is trained with 1000+ data within Malaysian traffic dataset. https://app.roboflow.com/project-ch1aj/vehicle-detection-swchc/8
 <br> The backend is created in REST API using Flask
