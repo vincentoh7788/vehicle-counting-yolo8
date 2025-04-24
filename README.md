@@ -42,5 +42,5 @@ Training and evaluation: https://colab.research.google.com/drive/1timgSs15BAyOJt
 3. View prediction result and video
 4. View previous result
 <br>
-Create using Vite<br>
-Code with Typescript and CSS Bootstrap 
+Create using <strong>Vite</strong><br>
+Code with <strong> Typescript </strong> and <strong> CSS Bootstrap </strong>
