@@ -13,10 +13,11 @@ Model evaluation:
 5. mAP50-95 = 0.658
 6. FPS = 93
 <br>
-**Confusion Matrix**
-![confusion matrix][./YOLOv8_CF.png]
-**Precision-Recall Curve**
-![PR-Curve][./YOLOv8_PRCurve.png]
+
+![confusion matrix][https://github.com/vincentoh7788/vehicle-counting-yolo8/blob/main/YOLOv8_CF.png]
+
+![PR-Curve][https://github.com/vincentoh7788/vehicle-counting-yolo8/blob/main/YOLOv8_PRCurve.png]
+
 
 # Function of API
 <br> The backend is created in REST API using Flask
