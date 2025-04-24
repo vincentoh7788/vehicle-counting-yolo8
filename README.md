@@ -1,7 +1,10 @@
 # Vehicle Counting Application Backend using Deep Learning
 The model YOLOv8 is chosen among 4 models to be deployed within the application. The model is trained with 1000+ data within Malaysian traffic dataset. https://app.roboflow.com/project-ch1aj/vehicle-detection-swchc/8
-<br> The backend is created in REST API using Flask
 <br>
+Training and evaluation: https://colab.research.google.com/drive/1timgSs15BAyOJth8smh-p8fQmV0gz-IP#scrollTo=Bsc0DSA9nMqj
+<br>
+Sample of model detection:
+![Output of detection][sample_output.jpg]
 Model evaluation:
 1. Precision = 0.873
 2. Recall = 0.844
@@ -10,9 +13,13 @@ Model evaluation:
 5. mAP50-95 = 0.658
 6. FPS = 93
 <br>
-Training and evaluation: https://colab.research.google.com/drive/1timgSs15BAyOJth8smh-p8fQmV0gz-IP#scrollTo=Bsc0DSA9nMqj
+**Confusion Matrix**
+![confusion matrix][./YOLOv8_CF.png]
+**Precision-Recall Curve**
+![PR-Curve][./YOLOv8_PRCurve.png]
 
 # Function of API
+<br> The backend is created in REST API using Flask
 1. Make Prediction on video
    YOLOv8 model makes prediction on each frame of the video.
    DeepSORT predicts the location based on previous frame.
