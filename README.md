@@ -14,11 +14,6 @@ Model evaluation:
 6. FPS = 93
 <br>
 
-![confusion matrix][https://github.com/vincentoh7788/vehicle-counting-yolo8/blob/main/YOLOv8_CF.png]
-
-![PR-Curve][https://github.com/vincentoh7788/vehicle-counting-yolo8/blob/main/YOLOv8_PRCurve.png]
-
-
 # Function of API
 <br> The backend is created in REST API using Flask
 1. Make Prediction on video
